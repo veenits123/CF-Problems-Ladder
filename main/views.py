@@ -102,3 +102,4 @@ def home(request):
     except:
         print("Error in logging")
     return render(request, 'ladder.html', {'ladder':ladder, 'division':div_head, 'handle': handle, 'solved':solved})
+    
